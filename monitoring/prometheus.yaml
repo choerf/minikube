@@ -965,7 +965,7 @@ spec:
           ##
           defaultDashboardsEditable: true
 
-          adminPassword: admin
+          adminPassword: admin-pass
 
           rbac:
             ## If true, Grafana PSPs will be created
