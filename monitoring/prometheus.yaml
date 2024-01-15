@@ -14,9 +14,6 @@ spec:
     chart: kube-prometheus-stack
     helm:
       values: |-
-        defaultRules:
-          rules:
-            alertmanager: false
         alertmanager:
           enabled: false
         prometheus-node-exporter:
