@@ -20,8 +20,11 @@ spec:
         prometheusOperator:
            admissionWebhooks:
              failurePolicy: Ignore
+        grafana.adminPassword: admin
+        ingress:
+          enable:true
     repoURL: https://prometheus-community.github.io/helm-charts
-    targetRevision: 42.0.3
+    targetRevision: 55.8.1
   syncPolicy:
     syncOptions:
     - ServerSideApply=true
