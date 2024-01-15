@@ -31,7 +31,7 @@ spec:
           ingress:
             enable: true
     repoURL: https://prometheus-community.github.io/helm-charts
-    targetRevision: 55.8.1
+    targetRevision: 49.2.0
   syncPolicy:
     syncOptions:
     - ServerSideApply=true
